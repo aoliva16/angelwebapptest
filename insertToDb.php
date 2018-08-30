@@ -97,7 +97,7 @@
 				VehicleModel,
 				StartDate,
 				EndDate,
-				NameOfEmployee,
+				NameOfEmployee
                )
 		VALUES ('" . $vehicleMake . "',
 				'" . $vehicleModel . "', 
@@ -130,5 +130,5 @@
 	//$_SESSION['prevSelections'] = $prevSelections;
 
 	/* Redirect browser to home page */
-	// header("Location: /"); 
+	 header("Location: /"); 
 ?>
