@@ -130,5 +130,5 @@
 	$_SESSION['prevSelections'] = $prevSelections;
     
 	/* Redirect browser to home page */
-	 header("Location: /"); 
+	 //header("Location: /"); 
 ?>
