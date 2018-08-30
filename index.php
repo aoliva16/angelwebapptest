@@ -85,11 +85,11 @@ The PHP script insertToDb.php will be executed after the user clicks "Submit"-->
 		<input type="number" step="1" name="start_year" required><br>
         
         <label>End Day (1-31):</label>
-		<input type="number" step="1" name="start_day" required>
+		<input type="number" step="1" name="end_day" required>
 
 		<!-- Dropdown menu for expense month, remembering previously selected month -->
 		<label>End Month</label>
-		<select name="start_month">
+		<select name="end_month">
 			<option value="-1">Month:</option>
 			<option value="01">Jan</option>
 			<option value="02">Feb</option>
