@@ -13,7 +13,7 @@
 	//function validateTwoDecimals($number)
 	//{
 	//   return (preg_match('/^[0-9]+(\.[0-9]{1,2})?$/', $number));
-	}
+	//}
  
 	// PHP script used to connect to backend Azure SQL database
 	require 'ConnectToDatabase.php';
@@ -112,8 +112,8 @@
 
 		// Close SQL database connection
 		sqlsrv_close ($conn);
-	}
-
+	
+    }
 	// Initialize an array of previously-posted info
 	$prevSelections = array();
 
@@ -128,7 +128,7 @@
 
 	// Store previously-selected data as part of info to carry over after URL redirection
 	$_SESSION['prevSelections'] = $prevSelections;
-
+    
 	/* Redirect browser to home page */
 	 header("Location: /"); 
 ?>
