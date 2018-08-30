@@ -92,7 +92,7 @@
 
 		// Build SQL query to insert new expense data into SQL database
 		$tsql=
-		"INSERT INTO VehicleTable(	
+		"INSERT INTO VehicleTable (	
 				VehicleMake,
 				VehicleModel,
 				StartDate,

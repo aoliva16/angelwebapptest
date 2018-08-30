@@ -110,13 +110,13 @@ The PHP script insertToDb.php will be executed after the user clicks "Submit"-->
 		<input type="number" step="1" name="end_year" required><br>
  
 		<label>Vehicle Make:</label>
-		<input type="string" step="0.01" name="vehicle_make" required><br>
+		<input type="string" name="vehicle_make" required><br>
 
 		<label>Vehicle Model:</label>
-		<input type="string" step="0.01" name="vehicle_model" required><br>
+		<input type="string" name="vehicle_model" required><br>
         
         <label>Empoloyee Name:</label>
-		<input type="string" step="0.01" name="name_of_employee" required><br>
+		<input type="string" name="name_of_employee" required><br>
 
 		<button type="submit">Submit</button>
 	</form>
