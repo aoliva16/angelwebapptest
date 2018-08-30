@@ -74,10 +74,10 @@
 	if ( !$anyErrors ) 
 	{
 		// Create a DateTime object based on inputted data
-		$dateObjStart= DateTime::createFromFormat('Y-m-d', $startYear . "-" . $startMonth . "-" . $startDay);
+		//$dateObjStart= DateTime::createFromFormat('Y-m-d', $startYear . "-" . $startMonth . "-" . $startDay);
         
         // Create a DateTime object based on inputted data
-		$dateObjEnd= DateTime::createFromFormat('Y-m-d', $endYear . "-" . $endMonth . "-" . $endDay);
+		//$dateObjEnd= DateTime::createFromFormat('Y-m-d', $endYear . "-" . $endMonth . "-" . $endDay);
 
 		// Get the name of the month (e.g. January) of this expense
 		//$expenseMonthName= $dateObj->format('F');
@@ -103,7 +103,7 @@
 				'" . $vehicleModel . "', 
 				'" . $dateObjStart . "', 
 				'" . $dateObjEnd . "', 
-				'" . $nameOfEmployee . "',)";
+				'" . $nameOfEmployee . "')";
         
         echo $tqsl;
 
