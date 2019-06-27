@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title> 
-		Angel's Vehicle Registration Tool
+		UIC's Vehicle Registration Tool
 	</title>
 
 
