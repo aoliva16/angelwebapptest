@@ -46,7 +46,7 @@
 
 <div class="intro">
 
-	<h2> Vehicle Registration Form </h2>
+	<h1> OCDA Vehicle Registration Form </h1>
 
 	<!-- Display redundant error message on top of webpage if there is an error -->
 	<h3> <span class="error"> <?php echo $prevSelections['errorMessage'] ?> </span> </h3>
