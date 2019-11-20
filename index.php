@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title> 
-		DoD Vehicle Registration Tool
+		STRS Vehicle Registration Tool
 	</title>
 
 
@@ -46,7 +46,7 @@
 
 <div class="intro">
 
-	<h1> DoD Vehicle Tool</h1>
+	<h2> STRS Vehicle Tool</h2>
 
 	<!-- Display redundant error message on top of webpage if there is an error -->
 	<h3> <span class="error"> <?php echo $prevSelections['errorMessage'] ?> </span> </h3>
